@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    line-height: 1.6;
+    background-image: url('https://plus.unsplash.com/premium_photo-1671278910068-a7a864327507?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d2hpdGV8ZW58MHx8MHx8fDA%3D');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size:36px ;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 60px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:1px 1px blueviolet;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#search-input{
+    width:60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+#search-button{
+    padding: 10px 20px;
+    background-color: #4646ba;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+box-shadow: 0 0 6px rgba(0,0,0,0.2);
+cursor: pointer;
+border-radius: 5px;
+margin-left: 10px;
+}
+.search-results{
+    box-sizing: border-box;
+ 
+}
+
+.search-result a{
+    color:#333;
+    text-decoration: none;
+    font-family: "poppins";
+    padding:5px;
+
+}
+.search-result img{
+    width:100%;
+    height:300px;
+    object-fit: fill;
+}
+.search-result img:hover{
+  opacity: 0.5;
+}
+#show-more-button{
+padding: 10px 20px;
+background-color: #2dc298;
+color: #fff;
+border: none;
+font-size: 18px;
+display: block;
+margin:30px auto;
+box-shadow: 0 0 6px rgba(0,0,0,0.2);
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+cursor: pointer;
+display:none;
+}
